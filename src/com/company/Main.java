@@ -6,6 +6,7 @@ package com.company;
             // Загрузим файл
             File file = new File("E:\\output.txt");
 
+            // До тех пор, пока поток используется
             while (file.IsReady())
             {
                 try {
